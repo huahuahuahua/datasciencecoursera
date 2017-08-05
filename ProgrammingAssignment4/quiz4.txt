@@ -1,0 +1,262 @@
+
+
+Close
+Programming Assignment 3: Quiz
+10 questions
+1
+point
+1. 
+What result is returned by the following code?
+
+1
+
+
+
+best("SC", "heart attack")
+
+
+
+GRAND STRAND REG MED CENTER
+
+MARY BLACK MEMORIAL HOSPITAL
+
+MCLEOD MEDICAL CENTER - DARLINGTON
+
+LAKE CITY COMMUNITY HOSPITAL
+
+CAROLINAS HOSPITAL SYSTEM
+
+MUSC MEDICAL CENTER
+1
+point
+2. 
+What result is returned by the following code?
+
+1
+
+
+
+best("NY", "pneumonia")
+
+
+
+BROOKS MEMORIAL HOSPITAL
+
+MAIMONIDES MEDICAL CENTER
+
+KINGSBROOK JEWISH MEDICAL CENTER
+
+HOSPITAL FOR SPECIAL SURGERY
+
+CROUSE HOSPITAL
+
+NORTHERN DUTCHESS HOSPITAL
+1
+point
+3. 
+What result is returned by the following code?
+
+1
+
+
+
+best("AK", "pneumonia")
+
+
+
+ALASKA NATIVE MEDICAL CENTER
+
+YUKON KUSKOKWIM DELTA REG HOSPITAL
+
+CENTRAL PENINSULA GENERAL HOSPITAL
+
+CORDOVA COMMUNITY MEDICAL CENTER
+
+MT EDGECUMBE HOSPITAL
+
+PROVIDENCE ALASKA MEDICAL CENTER
+1
+point
+4. 
+What result is returned by the following code?
+
+1
+
+
+
+rankhospital("NC", "heart attack", "worst")
+
+
+
+THOMASVILLE MEDICAL CENTER
+
+WAKEMED, CARY HOSPITAL
+
+CATAWBA VALLEY MEDICAL CENTER
+
+CAROLINAS MEDICAL CENTER-NORTHEAST
+
+WAYNE MEMORIAL HOSPITAL
+
+SPRUCE PINE COMMUNITY HOSPITAL
+1
+point
+5. 
+What result is returned by the following code?
+
+1
+
+
+
+rankhospital("WA", "heart attack", 7)
+
+
+
+ST ANTHONY HOSPITAL
+
+KENNEWICK GENERAL HOSPITAL
+
+TACOMA GENERAL ALLENMORE HOSPITAL
+
+KADLEC REGIONAL MEDICAL CENTER
+
+YAKIMA VALLEY MEMORIAL HOSPITAL
+
+JEFFERSON HEALTHCARE HOSPITAL
+1
+point
+6. 
+What result is returned by the following code?
+
+1
+
+
+
+rankhospital("TX", "pneumonia", 10)
+
+
+
+UNIVERSITY OF TEXAS HEALTH SCIENCE CENTER AT TYLER
+
+SETON SMITHVILLE REGIONAL HOSPITAL
+
+SCENIC MOUNTAIN MEDICAL CENTER
+
+MEMORIAL HERMANN NORTHEAST
+
+WEST HOUSTON MEDICAL CENTER
+
+PROVIDENCE MEMORIAL HOSPITAL
+1
+point
+7. 
+What result is returned by the following code?
+
+1
+
+
+
+rankhospital("NY", "heart attack", 7)
+
+
+
+FOREST HILLS HOSPITAL
+
+NASSAU UNIVERSITY MEDICAL CENTER
+
+UNIVERSITY HOSPITAL S U N Y HEALTH SCIENCE CENTER
+
+BELLEVUE HOSPITAL CENTER
+
+ADIRONDACK MEDICAL CENTER
+
+FLUSHING HOSPITAL MEDICAL CENTER
+1
+point
+8. 
+What result is returned by the following code?
+
+1
+2
+
+
+
+r <- rankall("heart attack", 4)
+as.character(subset(r, state == "HI")$hospital)
+
+
+
+ST FRANCIS MEDICAL CENTER
+
+CASTLE MEDICAL CENTER
+
+PARKLAND HEALTH AND HOSPITAL SYSTEM
+
+NORTH COUNTRY HOSPITAL AND HEALTH CENTER
+
+SANFORD USD MEDICAL CENTER
+
+CLARK REGIONAL MEDICAL CENTER
+1
+point
+9. 
+What result is returned by the following code?
+
+1
+2
+
+
+
+r <- rankall("pneumonia", "worst")
+as.character(subset(r, state == "NJ")$hospital)
+
+
+
+TERREBONNE GENERAL MEDICAL CENTER
+
+POTTSTOWN MEMORIAL MEDICAL CENTER
+
+BAY AREA HOSPITAL
+
+BERGEN REGIONAL MEDICAL CENTER
+
+LAURENS COUNTY HEALTHCARE SYSTEM
+
+LAKES REGION GENERAL HOSPITAL
+1
+point
+10. 
+What result is returned by the following code?
+
+1
+2
+
+
+
+r <- rankall("heart failure", 10)
+as.character(subset(r, state == "NV")$hospital)
+
+
+
+NA
+
+YORK GENERAL HOSPITAL
+
+CARONDELET ST JOSEPHS HOSPITAL
+
+RENOWN SOUTH MEADOWS MEDICAL CENTER
+
+CARY MEDICAL CENTER
+
+HAWAII MEDICAL CENTER EAST
+
+I, Hua Solomon, understand that submitting work that isn’t my own may result in permanent failure of this course or deactivation of my Coursera account. Learn more about Coursera’s Honor Code
+
+10 questions unanswered
+Submit Quiz
+
+
+
+
+
+
